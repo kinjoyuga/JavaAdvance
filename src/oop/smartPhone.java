@@ -8,7 +8,7 @@ public class smartPhone {
         private String email;
         private String address;
 
-        //コントラスタ
+        //コントラクタ
         public Account(String name, String tel,String email,String address) {
             this.name = name;
             this.tel = tel;
@@ -28,7 +28,7 @@ public class smartPhone {
         private String tel;
         private String email;
 
-        //コントラスタ
+        //コントラクタ
         public AddressBook(String name, String tel, String email) {
             this.name = name;
             this.tel = tel;
@@ -44,7 +44,7 @@ public class smartPhone {
         AddressBook[] addressBooks;
         String[] apps;
 
-        //コントラスタ
+        //コントラクタ
         public SmartPhone(String model, String os) {
             this.model = model;
             this.os = os;
