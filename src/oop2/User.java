@@ -1,7 +1,7 @@
 // User.java
 package oop2;/*oopのパッケージ*/
 
-import java.time.LocalDate;
+import java.time.LocalDate;/*日付を表すためのクラスであり、年月日を扱う*/
 import java.util.Objects;/*データを取り込んでいる*/
 
 public record User(String name, String birthplace, LocalDate birthdate) {
