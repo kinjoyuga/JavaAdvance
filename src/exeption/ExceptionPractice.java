@@ -20,9 +20,8 @@ public class ExceptionPractice extends RuntimeException {
                 System.out.println("エラー" + e.getMessage());
             }
 
-            scanner.close();
         }
-
+        scanner.close();
 
 
     }
